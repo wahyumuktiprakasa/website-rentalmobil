@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Car Rental</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="img/jeep.png" alt="" /></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Profile</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="index.html">Galery</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+
+      <div class="header-btn">
+        <a href="#" class="sign-up">sign-up</a>
+        <a href="#" class="sign-in">sign-in</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="car-details">
+        <img alt="White Honda Freed car" src="img/avanza.png" />
+        <h2>Toyota Avanza</h2>
+        <p>Rp. 350.000 / Hari</p>
+        <div class="icons">
+          <i class="fas fa-user"> </i>
+          6 Seats
+          <i class="fas fa-calendar-alt" style="margin-left: 20px"> </i>
+          2012
+          <i class="fas fa-gas-pump" style="margin-left: 20px"> </i>
+          Bensin
+        </div>
+      </div>
+      <div class="booking-form">
+        <label for="start-date" class="date"> Tanggal Mulai </label>
+        <input id="start-date" placeholder="hh/bb/tttt" type="date" />
+        <label for="end-date"> Tanggal Selesai </label>
+        <input id="end-date" placeholder="hh/bb/tttt" type="date" />
+        <label for="pickup-method"> Metode Pickup </label>
+        <select id="pickup-method">
+          <option>== Metode Pickup ==</option>
+          <option>Ambil Sendiri</option>
+          <option>Sesuai Alamat</option>
+        </select>
+        <label> Driver </label>
+        <div class="radio-group">
+          <input id="driver-yes" name="driver" type="radio" value="yes" />
+          <label for="driver-yes"> Ya </label>
+          <input id="driver-no" name="driver" type="radio" value="no" />
+          <label for="driver-no"> Tidak </label>
+        </div>
+        <button>Cek Ketersediaan</button>
+      </div>
+    </div>
+  </body>
+</html>
